@@ -5,7 +5,7 @@ This repository contains the complete source code for an automotive ECU simulati
 ## Directory Structure
 
 - `ABS/`: Firmware source code for the Anti-lock Braking System.
-- `ADAS/`: Firmware source code for Advanced Driver Assistance Systems.
+- `airbag/`: Firmware source code for Advanced Driver Assistance Systems (Airbag).
 - `EPS/`: Firmware source code for Electronic Power Steering.
 - `dashboard/`: Dashboard application used to display parameters and control the system.
 - `common/`: Shared libraries and common code for the ECUs.
@@ -15,7 +15,7 @@ This repository contains the complete source code for an automotive ECU simulati
 - **Prerequisites**: STM32CubeIDE (or Keil C/VS Code depending on project configuration) and an ST-Link/J-Link programmer.
 - **Steps**:
   1. Open STM32CubeIDE.
-  2. Select `File > Open Projects from File System...` and point to the respective ECU directory (e.g., `ABS`, `ADAS`, or `EPS`).
+  2. Select `File > Open Projects from File System...` and point to the respective ECU directory (e.g., `ABS`, `airbag`, or `EPS`).
   3. Build the project (click the hammer icon or `Project > Build All`).
   4. Connect the STM32 board to your computer via the ST-Link programmer.
   5. Click the Run/Debug button to flash the program onto the microcontroller.

@@ -9,8 +9,6 @@ This repository contains the complete source code for an automotive ECU simulati
 - `EPS/`: Firmware source code for Electronic Power Steering.
 - `dashboard/`: Dashboard application used to display parameters and control the system.
 - `common/`: Shared libraries and common code for the ECUs.
-- `.md` files: Contains comprehensive report documents and system design details (in Vietnamese).
-
 ## How to Use
 
 ### 1. Flashing Firmware to ECUs (STM32)
@@ -29,9 +27,3 @@ This repository contains the complete source code for an automotive ECU simulati
    - If it's a **Node.js/React/Vue** project: run `npm install` to install dependencies, then run `npm start` or `npm run dev`.
    - If it's a **Python** project: set up the environment and run `pip install -r requirements.txt`, then execute the main file (e.g., `python main.py`).
 3. Ensure the hardware signal converter (CAN to USB or UART to USB) is connected to your computer and the correct COM port is selected on the interface so the Dashboard can send and receive data from the CAN network.
-
-## References
-Read the Markdown documents in the root directory (especially `BAO_CAO_TONG_HOP_HOAN_CHINH.md` and `DATN_TAI_LIEU_TONG_HOP.md`) to better understand:
-- System block diagrams
-- Hardware/Software architecture
-- ID mapping and CAN message data flow (CAN Matrix).
